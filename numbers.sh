@@ -9,11 +9,11 @@ while [ $N -le "$NUMBER" ]
 do	
 	if [ $((N%2)) -eq 0 ]
 	then	
-		echo "Your number is even."
+		echo "$N is even."
 									
 	else
-		echo "Your number is odd."
+		echo "$N is odd."
 	fi
 	N=$((N+1))
 done	
-												i
+												
